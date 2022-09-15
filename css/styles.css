@@ -1,0 +1,47 @@
+body {
+  color: #212121;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+/* main text color #212121 */
+/* secondary text color #757575 */
+/* secondary text color in footer rgba(255, 255, 255, 0.6); */
+/* bg color #FFFFFF; */
+/* secondary bg color #F5F4FA; */
+/* logo colors #2196F3 #000000 */
+/* button color #FFFFFF; */
+/* accent #2196F3; */
+
+.logo {
+  color: #000000;
+}
+.logo:hover {
+  color: #2196f3;
+}
+span {
+  color: #2196f3;
+}
+
+/* site navigation */
+.site-nav .link {
+  color: #2196f3;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #000000;
+}
+
+/* Hero */
+.hero-title {
+  color: #212121;
+}
+
+/* Section */
+
+.section-title {
+  color: #212121;
+}
