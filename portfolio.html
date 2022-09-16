@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Link on Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Шапка -->
     <header>
       <nav>
-        <a href="/"> <span>Web</span>Studio </a>
-        <ul>
-          <li><a href="/">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a href="./index.html" class="logo"> <span>Web</span>Studio </a>
+        <ul class="list site-nav">
+          <li><a href="./index.html" class="link current">Студія</a></li>
+          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list site-contacts">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -28,24 +35,34 @@
       <!-- Секція ПОРТФОЛІО -->
       <section>
         <!-- В оформленні заголовок потрібно буде приховати -->
-        <h1>Портфоліо</h1>
+        <h1 class="section-title">Портфоліо</h1>
 
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="list">
+          <li>
+            <button type="button" class="button">Усі</button>
+          </li>
+          <li>
+            <button type="button" class="button">Веб-сайти</button>
+          </li>
+          <li>
+            <button type="button" class="button">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="button">Маркетинг</button>
+          </li>
         </ul>
 
-        <ul>
+        <ul class="list portfolio-list">
           <li>
             <img
               src="./images/portfolio1.jpg"
               alt="Веб-сайт на дисплеї ноутбука"
               width="370"
             />
-            <h2>Технокряк</h2>
+            <h2 class="title">Технокряк</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -54,7 +71,7 @@
               alt="Баскетболіст команди Ґолден Стар блокує кидок баскетболіста команди Нью Орлеан"
               width="370"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
+            <h2 class="title">Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
           </li>
           <li>
@@ -63,7 +80,7 @@
               alt="Логотип ресторану Сіфуд"
               width="370"
             />
-            <h2>Ресторан Seafood</h2>
+            <h2 class="title">Ресторан Seafood</h2>
             <p>Додаток</p>
           </li>
           <li>
@@ -72,7 +89,7 @@
               alt="Накладні навушники"
               width="370"
             />
-            <h2>Проєкт Prime</h2>
+            <h2 class="title">Проєкт Prime</h2>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -81,7 +98,7 @@
               alt="Макет двох коробок"
               width="370"
             />
-            <h2>Проєкт Boxes</h2>
+            <h2 class="title">Проєкт Boxes</h2>
             <p>Додаток</p>
           </li>
           <li>
@@ -90,7 +107,7 @@
               alt="Веб-сайт на екрані комп'ютера"
               width="370"
             />
-            <h2>Inspiration has no Borders</h2>
+            <h2 class="title">Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -99,7 +116,7 @@
               alt="Сторінки розгорнутого журналу"
               width="370"
             />
-            <h2>Видання Limited Edition</h2>
+            <h2 class="title">Видання Limited Edition</h2>
             <p>Дизайн</p>
           </li>
           <li>
@@ -108,7 +125,7 @@
               alt="Макет бірки із логотипом"
               width="370"
             />
-            <h2>Проєкт LAB</h2>
+            <h2 class="title">Проєкт LAB</h2>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -117,7 +134,7 @@
               alt="Веб-сайт на екрані ноутбука, за яким хтось працює"
               width="370"
             />
-            <h2>Growing Business</h2>
+            <h2 class="title">Growing Business</h2>
             <p>Додаток</p>
           </li>
         </ul>
@@ -126,12 +143,20 @@
 
     <!-- Підвал -->
     <footer>
-      <a href="/"> <span>Web</span>Studio </a>
+      <a href="./index.html" class="logo"> <span>Web</span>Studio </a>
       <address>
-        <ul>
-          <li><a href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list footer-contacts">
+          <li>
+            <a href="" class="location link">м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
