@@ -24,6 +24,7 @@ body {
   background-color: var(--white-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 .list {
@@ -54,7 +55,6 @@ span {
 .site-nav .link {
   color: var(--text-color-secondary);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -74,7 +74,6 @@ span {
   /* color: var(--text-color-secondary); */
   color: var(--text-color-primary);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -117,7 +116,7 @@ span {
 }
 
 .feature-list .text {
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.71;
 }
 
@@ -153,8 +152,22 @@ span {
 .button {
   color: var(--text-color-secondary);
   background-color: var(--bg-color-primary);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
+
+.button.filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .button.primary {
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -170,6 +183,16 @@ span {
 /* PORTFOLIO PAGE */
 .portfolio-list .title {
   color: var(--text-color-secondary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
